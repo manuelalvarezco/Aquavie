@@ -17,22 +17,22 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">INFORMACION</a>
+                    <a class="nav-link" href="{{ url('info') }}">INFORMACION</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">PROGRAMAS SOCIALES</a>
+                    <a class="nav-link" href="{{ url('social') }}">PROGRAMAS SOCIALES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">CALCULA TU HUELLA</a>
+                    <a class="nav-link" href="{{ url('paw') }}">CALCULA TU HUELLA</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">CONTACTO</a>
+                    <a class="nav-link" href="{{ url('contact') }}">CONTACTO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">DONAR</a>
+                    <a class="nav-link" href="{{ url('donate') }}">DONAR</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">SIEMBRA CON NOSOTROS</a>
+                    <a class="nav-link" href="{{ url('sowing') }}">SIEMBRA CON NOSOTROS</a>
                 </li>
                 <!-- Authentication Links 
                 @guest

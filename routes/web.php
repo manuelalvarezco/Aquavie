@@ -21,12 +21,16 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/info', function () {
+    return view('pages.info');
+});
+
 Route::get('/social', function () {
     return view('pages.social');
 });
 
 Route::get('/paw', function () {
-    return view('welcome');
+    return view('pages.paw');
 });
 
 Route::get('/contact', function () {
