@@ -18,13 +18,13 @@
             <div class="aliados mt-4">
                 <div class="row aliados d-flex align-items-center" style="margin-top: 50px"> 
                     <div class="col-md-4">
-                    <img width="250" src="{{url('images/aliado01.png')}}" alt="aliado">
+                    <img width="250" src="{{url('images/aliado001.png')}}" alt="aliado">
                 </div>
                 <div class="col-md-4">
-                    <img width="250" src="{{url('images/aliado02.png')}}" alt="aliado">
+                    <img width="250" src="{{url('images/aliado002.png')}}" alt="aliado">
                 </div>
                 <div class="col-md-4"> 
-                    <img width="250" src="{{url('images/aliado03.png')}}" alt="aliado">
+                    <img width="250" src="{{url('images/aliado003.png')}}" alt="aliado">
                     </div>
                 </div>
             </div>
