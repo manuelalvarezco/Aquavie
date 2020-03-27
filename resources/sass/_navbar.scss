@@ -1,0 +1,29 @@
+.top-bar {
+    width: 100%;
+    height: 45px;
+    background: -webkit-linear-gradient( left, #2A4073 0%, #2263A2 70%);
+}
+
+.nav {
+    height: 70px;
+    background: -webkit-linear-gradient(left, #2A4073 0%, #2263A2 70%);
+}
+
+.color-white {
+    color: white!important;
+}
+
+.header {
+    background-color: #fff!important;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 400;
+}
+
+.navbar-image {
+    position: absolute;
+    height: 220px;
+    top: 0;
+}

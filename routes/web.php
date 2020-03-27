@@ -44,3 +44,16 @@ Route::get('/donate', function () {
 Route::get('/sowing', function () {
     return view('pages.sowing');
 });
+
+Route::get('/privacy', function () {
+    return view('pages.privacy');
+});
+
+Route::get('/terms', function () {
+    return view('pages.terms');
+});
+
+
+Route::get('/thanks', function () {
+    return view('pages.thanks');
+});
