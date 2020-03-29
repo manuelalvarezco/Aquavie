@@ -57,3 +57,16 @@ Route::get('/terms', function () {
 Route::get('/thanks', function () {
     return view('pages.thanks');
 });
+
+
+Route::view('/adult', 'pages.socials.adult');
+Route::view('/animals', 'pages.socials.animals');
+Route::view('/arts', 'pages.socials.arts');
+Route::view('/deport', 'pages.socials.deport');
+Route::view('/education', 'pages.socials.education');
+Route::view('/entrepreneurship', 'pages.socials.entrepreneurship');
+Route::view('/sowing', 'pages.socials.sowing');
+Route::view('/support', 'pages.socials.support');
+Route::view('/cleaning', 'pages.socials.cleaning');
+Route::view('/prevention', 'pages.socials.prevention');
+Route::view('/ceiling', 'pages.socials.ceiling');

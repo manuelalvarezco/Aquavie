@@ -14,35 +14,106 @@
                 
             </div>
         </div>
-        <div class="container">
-            <div class="aliados mt-4">
-                <div class="row aliados d-flex align-items-center" style="margin-top: 50px"> 
-                    <div class="col-md-4">
-                    <img width="250" src="{{url('images/aliado001.png')}}" alt="aliado">
-                </div>
-                <div class="col-md-4">
-                    <img width="250" src="{{url('images/aliado002.png')}}" alt="aliado">
-                </div>
-                <div class="col-md-4"> 
-                    <img width="250" src="{{url('images/aliado003.png')}}" alt="aliado">
+        
+
+        <div class="sociales">
+            <div class="container mt-4">
+                <h2 class="font-primary text-center text-uppercase">Programas Sociales</h2>
+                <div class="carrousel">
+                    <div class="carrousel__container">
+                        <a href="{{url('adult')}}">
+                            <div class="carrousel-item">
+                                <img class="carrousel-item__img" src="{{url('images/adultomayor.png')}}" alt="adultomayor">
+                                <div class="carrousel-item__details">
+                                    
+                                    <p class="carrousel-item__details--title">Adulto Mayor</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{url('animals')}}">
+                            <div class="carrousel-item">
+                                <img class="carrousel-item__img" src="{{url('images/animales.png')}}" alt="animales">
+                                <div class="carrousel-item__details">
+                                    
+                                    <p class="carrousel-item__details--title">Animales </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{url('support')}}">
+                            <div class="carrousel-item">
+                                <img class="carrousel-item__img" src="{{url('images/apoyopsicosocial.png')}}" alt="apoyopsicosocial">
+                                <div class="carrousel-item__details">
+                                    
+                                    <p class="carrousel-item__details--title">Apoyo Psicosocial</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{url('entrepreneurship')}}">
+                            <div class="carrousel-item">
+                                <img class="carrousel-item__img" src="{{url('images/emprendimiento.png')}}" alt="emprensimiento">
+                                <div class="carrousel-item__details">
+                                    
+                                    <p class="carrousel-item__details--title">Emprendimiento</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{url('cleaning')}}">
+                            <div class="carrousel-item">
+                                <img class="carrousel-item__img" src="{{url('images/limpieza.png')}}" alt="limpieza">
+                                <div class="carrousel-item__details">
+                                    
+                                    <p class="carrousel-item__details--title">Limpieza </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{url('prevention')}}">
+                            <div class="carrousel-item">
+                                <img class="carrousel-item__img" src="{{url('images/prevencion.png')}}" alt="prevención">
+                                <div class="carrousel-item__details">
+                                    
+                                    <p class="carrousel-item__details--title">Prevención</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{url('sowing')}}">
+                            <div class="carrousel-item">
+                                <img class="carrousel-item__img" src="{{url('images/siembra.png')}}" alt="siembra">
+                                <div class="carrousel-item__details">
+                                    
+                                    <p class="carrousel-item__details--title"> Siembra</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{url('ceiling')}}">
+                            <div class="carrousel-item">
+                                <img class="carrousel-item__img" src="{{url('images/techo.png')}}" alt="techo">
+                                <div class="carrousel-item__details">
+                                    
+                                    <p class="carrousel-item__details--title">Techo</p>
+                                </div>
+                            </div>
+                        </a>
+
                     </div>
                 </div>
+    
             </div>
-
         </div>
-        <div class="container">
+
+
+        <div class="container mt-4">
             <div class="row prueba-2">
                 <div class="col-md-7">
                     <div class="home-program-intro">
                         <h2>Siembra con nosotros</h2>
-                        <h3>Lorem inpsup</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis eveniet, illo quae expedita nam consectetur et eius, recusandae reprehenderit eligendi dolore reiciendis accusantium, harum ipsum ratione aut! Tenetur, ex.</p>
-                        </div>
+                        <h3>Siembra de árboles, cuidado de la biodiversidad y compensación ambiental</h3>
+                        <p>Es nuestro programa insignia, con el cual fomentamos la conciencia ambiental en las empresas y personas; desarrollando proyectos fiscales – ambientales, que generen la optimización financiera de los recursos de las empresas y a su vez la reinversión en servicios de biodiversidad – mitigación – conservación y sostenimiento de los ecosistemas.</p>    
+                    </div>
                     <!-- .home-program-intro -->
                 </div>
-                <div class=" prueba col-md-5" style="background-image: url(https://images.unsplash.com/photo-1567147136203-9e71087d6027?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);">
+                <div class=" prueba col-md-5" style="background-image: url(/images/siembranosotros.png);">
                     <div class="home-program-links">
-                        <a href="#"><span>Más información</span></a>
+                    <a href="{{url('sowing')}}"><span>Más información</span></a>
                     </div>
                     <!-- .home-program-links -->
                 </div>
@@ -50,9 +121,9 @@
         </div>
         <div class="container">
             <div class="row prueba-2">
-                <div class=" prueba col-md-5" style="background-image: url(https://images.unsplash.com/photo-1567147136203-9e71087d6027?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);">
+                <div class=" prueba col-md-5" style="background-image: url(/images/calculahuella.png);">
                     <div class="home-program-links">
-                        <a href="#"><span>Más información</span></a>
+                        <a href="{{url('paw')}}"><span>Más información</span></a>
                     </div>
                     <!-- .home-program-links -->
                 </div>
@@ -68,23 +139,43 @@
             </div>
         </div>
 
+        
+
         <div class="container">
             <div class="row prueba-2">
                 <div class="col-md-7">
                     <div class="home-program-intro">
                         <h2>Contáctanos</h2>
-                        <h3>Lorem inpsup</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis eveniet, illo quae expedita nam consectetur et eius, recusandae reprehenderit eligendi dolore reiciendis accusantium, harum ipsum ratione aut! Tenetur, ex.</p>
-                        </div>
+                        <h3>Nuestros clientes quieren ayudar a impactar y generar un cambio</h3>
+                        <p>¿Tienes alguna pregunta para nosotros? en AQUA VIE estamos pendientes para resolver cualquier duda o inquietud que tenga y ayudarte a tomar la mejor decisión.
+                            Nos encantaría darle una respuesta oportuna.</p>
+                    </div>
                     <!-- .home-program-intro -->
                 </div>
-                <div class=" prueba col-md-5" style="background-image: url(https://images.unsplash.com/photo-1567147136203-9e71087d6027?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);">
+                <div class="prueba col-md-5" style="background-image: url(/images/contactanos.png);">
                     <div class="home-program-links">
-                        <a href="#"><span>Escríbenos para mas información</span></a>
+                        <a href="{{url('contact')}}"><span>Escríbenos para mas información</span></a>
                     </div>
                     <!-- .home-program-links -->
                 </div>
             </div>
+        </div>
+
+        <div class="aliados mt-4 mb-5">
+            <div class="container ">
+                <div class="row d-flex align-items-center"> 
+                    <div class="col-md-4">
+                    <img width="250" src="{{url('images/aliado001.png')}}" alt="aliado">
+                </div>
+                <div class="col-md-4">
+                    <img width="250" src="{{url('images/aliado002.png')}}" alt="aliado">
+                </div>
+                <div class="col-md-4"> 
+                    <img width="250" src="{{url('images/aliado003.png')}}" alt="aliado">
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
