@@ -1,10 +1,7 @@
 @extends('layouts.app') 
 @section('content')
     <div class="container" style="margin-top:130px">
-        <h2 class="text-center">CALCULA TU HUELLA</h2>
-        <div class="col-md-6 offset-md-3">
-            <paw-component></paw-component>
-        </div>
+        <iframe style="width: 100%;height: 1080px;" src="https://calculator.carbonfootprint.com/calculator.aspx?lang=es&tab=7" frameborder="0"></iframe>
 
     </div>
 @endsection

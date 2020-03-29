@@ -61,7 +61,6 @@ Route::get('/thanks', function () {
 
 Route::view('/adult', 'pages.socials.adult');
 Route::view('/animals', 'pages.socials.animals');
-Route::view('/arts', 'pages.socials.arts');
 Route::view('/deport', 'pages.socials.deport');
 Route::view('/education', 'pages.socials.education');
 Route::view('/entrepreneurship', 'pages.socials.entrepreneurship');
@@ -70,3 +69,8 @@ Route::view('/support', 'pages.socials.support');
 Route::view('/cleaning', 'pages.socials.cleaning');
 Route::view('/prevention', 'pages.socials.prevention');
 Route::view('/ceiling', 'pages.socials.ceiling');
+Route::view('/about', 'pages.about');
+Route::view('/natural', 'pages.perfil.natural');
+Route::view('/enterprise', 'pages.perfil.enterprise');
+Route::view('/form/register', 'pages.register');
+Route::view('/form/trees', 'pages.trees');

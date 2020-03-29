@@ -15,6 +15,7 @@
             </div>
         </div>
         
+       
 
         <div class="sociales">
             <div class="container mt-4">
@@ -106,12 +107,12 @@
                 <div class="col-md-7">
                     <div class="home-program-intro">
                         <h2>Siembra con nosotros</h2>
-                        <h3>Siembra de árboles, cuidado de la biodiversidad y compensación ambiental</h3>
-                        <p>Es nuestro programa insignia, con el cual fomentamos la conciencia ambiental en las empresas y personas; desarrollando proyectos fiscales – ambientales, que generen la optimización financiera de los recursos de las empresas y a su vez la reinversión en servicios de biodiversidad – mitigación – conservación y sostenimiento de los ecosistemas.</p>    
-                    </div>
+                        <h3>Lorem inpsup</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis eveniet, illo quae expedita nam consectetur et eius, recusandae reprehenderit eligendi dolore reiciendis accusantium, harum ipsum ratione aut! Tenetur, ex.</p>
+                        </div>
                     <!-- .home-program-intro -->
                 </div>
-                <div class=" prueba col-md-5" style="background-image: url(/images/siembranosotros.png);">
+                <div class=" prueba col-md-5" style="background-image: url(/images/siembranosotrosnew.png);">
                     <div class="home-program-links">
                     <a href="{{url('sowing')}}"><span>Más información</span></a>
                     </div>
@@ -121,7 +122,7 @@
         </div>
         <div class="container">
             <div class="row prueba-2">
-                <div class=" prueba col-md-5" style="background-image: url(/images/calculahuella.png);">
+                <div class=" prueba col-md-5" style="background-image: url(/images/calculahuellanew.png);">
                     <div class="home-program-links">
                         <a href="{{url('paw')}}"><span>Más información</span></a>
                     </div>
@@ -152,7 +153,7 @@
                     </div>
                     <!-- .home-program-intro -->
                 </div>
-                <div class="prueba col-md-5" style="background-image: url(/images/contactanos.png);">
+                <div class="prueba col-md-5" style="background-image: url(/images/contactanosnew.png);">
                     <div class="home-program-links">
                         <a href="{{url('contact')}}"><span>Escríbenos para mas información</span></a>
                     </div>

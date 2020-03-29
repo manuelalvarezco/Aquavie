@@ -19,23 +19,10 @@
         <ul class="navbar-nav ml-auto">
 
             <li class="nav-item">
-                <a class="color-white nav-link" href="{{ url('/') }}">HOME</a>
+                <a class="color-white nav-link" href="{{ url('/') }}">INICIO</a>
             </li>
             <li class="nav-item">
-                <div class="dropdown">
-                    <a class="nav-link text-white nav-link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        MÁS INFORMACION
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                      <a href="{{ url('/about') }}" class="dropdown-item" type="a">QUIENES SOMOS</a>
-                      <button class="dropdown-item" type="button">PERFIL NATURAL</button>
-                      <button class="dropdown-item" type="button">PERFIL EMPRESARIAL</button>
-                      <button class="dropdown-item" type="button">FORMULARIO</button>
-                    </div>
-                  </div>
-            </li>
-            <li class="nav-item">
-                <a class="color-white nav-link" href="{{ url('/') }}">DONAR</a>
+                <a class="color-white nav-link" href="{{ url('about') }}">QUIENES SOMOS</a>
             </li>
             <li class="nav-item">
                 <div class="dropdown">
@@ -49,8 +36,9 @@
                       <a href="{{url('adult')}}" class="dropdown-item" type="button">ADULTO MAYOR</a>
                       <a href="{{url('animals')}}" class="dropdown-item" type="button">ANIMALES </a>
                       <a href="{{url('support')}}" class="dropdown-item" type="button">APOYO PSICOSOCIAL </a>
-                      <a href="{{url('arts')}}" class="dropdown-item" type="button">ARTES LÚDICAS </a>
                       <a href="{{url('entrepreneurship')}}" class="dropdown-item" type="button">EMPRENDIMIENTO  </a>
+                      <a href="{{url('ceiling')}}" class="dropdown-item" type="button">TECHO PARA TODOS  </a>
+                      <a href="{{url('prevention')}}" class="dropdown-item" type="button">PREVENCIÓN </a>
                     </div>
                   </div>
             </li>
@@ -63,8 +51,8 @@
                         SIEMBRA CON NOSOTROS 
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                      <button class="dropdown-item" type="button">ÁRBOLES SEMBRADOS</button>
-                      <button class="dropdown-item" type="button">INSCRIBIRSE</button>
+                      <a href="{{ url('form/trees') }}" class="dropdown-item" type="button">ÁRBOLES SEMBRADOS</a>
+                      <a href="{{ url('form/register') }}" class="dropdown-item" type="button">INSCRIBIRSE</a>
                     </div>
                   </div>
             </li>

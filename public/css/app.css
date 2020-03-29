@@ -168,7 +168,7 @@ body {
 }
 
 .aliados {
-  background-color: #000;
+  background-color: #FFF;
 }
 
 .carrousel {
@@ -250,6 +250,114 @@ body {
 
 .sociales {
   background: #f6f6f6;
+}
+
+.about {
+  background-image: url("https://image.freepik.com/foto-gratis/grupo-negocios-hablando-reunion_53876-26417.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+}
+
+.about-info {
+  background-image: url("https://image.freepik.com/vector-gratis/concepto-contacto-landing-page_52683-12860.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 100%;
+}
+
+.deport {
+  background-image: url("/images/bg-deports.png");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: contain;
+}
+
+.sowing {
+  background-image: url("https://image.freepik.com/foto-gratis/manos-plantando-planta-que-crezca_23-2147609773.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+}
+
+.education {
+  background-image: url("https://image.freepik.com/foto-gratis/nino-decide-grunir-sobre-asfalto_73944-10794.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+}
+
+.adult {
+  background-image: url("https://image.freepik.com/foto-gratis/pareja-mayor-abrazandose-casa_1098-1297.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+}
+
+.animals {
+  background-image: url("https://image.freepik.com/foto-gratis/retrato-grupo-adorables-cachorros_53876-64778.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+}
+
+.support {
+  background-image: url("https://image.freepik.com/foto-gratis/estandarte-mujer-asiatica-profesional-psicologa-medico-dando-consulta-pacientes-mujeres_41418-3057.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+}
+
+.emprend {
+  background-image: url("https://image.freepik.com/foto-gratis/empresarios-creativos-bombillas-dibujadas_1134-663.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+}
+
+.celling {
+  background-image: url("https://image.freepik.com/vector-gratis/escena-pared-techo-rojo_1308-4819.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+}
+
+.prevention {
+  background-image: url("https://image.freepik.com/foto-gratis/grupo-amigos-levantando-brazos-sobre-fondo-cielo_23-2148196426.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
 }
 
 .top-bar {
@@ -344,6 +452,16 @@ body {
 
 #site-footer .footer-text p {
   margin: 0px 0px 15px;
+}
+
+.bg-contact {
+  background-image: url("/images/bg-contacto.png");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: top;
+  background-size: auto;
 }
 
 /*
