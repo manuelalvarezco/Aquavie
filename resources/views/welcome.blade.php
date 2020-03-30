@@ -1,15 +1,7 @@
     @extends('layouts.app')
     @section('content')
 
-        <div style="
-        background-image: url('images/header01.jpg');
-        min-height: 100vh;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        background-position: top;
-        background-size: cover;" 
-        class=" mt-5">
+        <div class="main mt-5">
             <div class="container" style="margin-top:5.5em">
 
                 <div class="row mb-4">

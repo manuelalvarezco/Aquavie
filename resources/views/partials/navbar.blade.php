@@ -3,7 +3,7 @@
     <!-- Just an image -->
     <nav class="nav navbar navbar-expand-lg navbar-light bg-light">
       <a style="padding-top:0" class="ml-auto navbar-image navbar-brand" href="#">
-        <img src="{{url('images/logo-franja.png')}}"  height="130" class="d-inline-block align-top" alt="">
+        <img src="{{route('images/logo-franja.png')}}"  height="130" class="d-inline-block align-top" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
         <span class="navbar-toggler-icon"></span>
@@ -19,10 +19,10 @@
         <ul class="navbar-nav ml-auto">
 
             <li class="nav-item">
-                <a class="color-white nav-link" href="{{ url('/') }}">INICIO</a>
+                <a class="color-white nav-link" href="{{ route('/') }}">INICIO</a>
             </li>
             <li class="nav-item">
-                <a class="color-white nav-link" href="{{ url('about') }}">QUIENES SOMOS</a>
+                <a class="color-white nav-link" href="{{ route('about') }}">QUIENES SOMOS</a>
             </li>
             <li class="nav-item">
                 <div class="dropdown">
@@ -30,20 +30,20 @@
                         PROGRAMAS SOCIALES
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                      <a href="{{url('deport')}}" class="dropdown-item" type="button">DEPORTE</a>
-                      <a href="{{url('sowing')}}" class="dropdown-item" type="button">SIEMBRA</a>
-                      <a href="{{url('education')}}" class="dropdown-item" type="button">EDUCACIÓN </a>
-                      <a href="{{url('adult')}}" class="dropdown-item" type="button">ADULTO MAYOR</a>
-                      <a href="{{url('animals')}}" class="dropdown-item" type="button">ANIMALES </a>
-                      <a href="{{url('support')}}" class="dropdown-item" type="button">APOYO PSICOSOCIAL </a>
-                      <a href="{{url('entrepreneurship')}}" class="dropdown-item" type="button">EMPRENDIMIENTO  </a>
-                      <a href="{{url('ceiling')}}" class="dropdown-item" type="button">TECHO PARA TODOS  </a>
-                      <a href="{{url('prevention')}}" class="dropdown-item" type="button">PREVENCIÓN </a>
+                      <a href="{{route('deport')}}" class="dropdown-item" type="button">DEPORTE</a>
+                      <a href="{{route('sowing')}}" class="dropdown-item" type="button">SIEMBRA</a>
+                      <a href="{{route('education')}}" class="dropdown-item" type="button">EDUCACIÓN </a>
+                      <a href="{{route('adult')}}" class="dropdown-item" type="button">ADULTO MAYOR</a>
+                      <a href="{{route('animals')}}" class="dropdown-item" type="button">ANIMALES </a>
+                      <a href="{{route('support')}}" class="dropdown-item" type="button">APOYO PSICOSOCIAL </a>
+                      <a href="{{route('entrepreneurship')}}" class="dropdown-item" type="button">EMPRENDIMIENTO  </a>
+                      <a href="{{route('ceiling')}}" class="dropdown-item" type="button">TECHO PARA TODOS  </a>
+                      <a href="{{route('prevention')}}" class="dropdown-item" type="button">PREVENCIÓN </a>
                     </div>
                   </div>
             </li>
             <li class="nav-item">
-                <a class="color-white nav-link" href="{{ url('paw') }}">CALCULAR</a>
+                <a class="color-white nav-link" href="{{ route('paw') }}">CALCULAR</a>
             </li>
             <li class="nav-item">
                 <div class="dropdown">
@@ -52,12 +52,12 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                       <button class="dropdown-item" type="button">ÁRBOLES SEMBRADOS</button>
-                      <a href="{{ url('form/register') }}" class="dropdown-item" type="button">INSCRIBIRSE</a>
+                      <a href="{{ route('form/register') }}" class="dropdown-item" type="button">INSCRIBIRSE</a>
                     </div>
                   </div>
             </li>
             <li class="nav-item">
-                <a class="color-white nav-link" href="{{ url('contact') }}">CONTACTO</a>
+                <a class="color-white nav-link" href="{{ route('contact') }}">CONTACTO</a>
             </li>
            
             

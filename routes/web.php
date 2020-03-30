@@ -23,44 +23,16 @@ Route::resource('/customers','CustomerController');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/info', function () {
-    return view('pages.info');
-});
-
-Route::get('/social', function () {
-    return view('pages.social');
-});
-
-Route::get('/paw', function () {
-    return view('pages.paw');
-});
-
-Route::get('contact', function () {
-    return view('pages.contact');
-});
-
-Route::get('/donate', function () {
-    return view('pages.donate');
-});
-
-Route::get('/sowing', function () {
-    return view('pages.sowing');
-});
-
-Route::get('/privacy', function () {
-    return view('pages.privacy');
-});
-
-Route::get('/terms', function () {
-    return view('pages.terms');
-});
 
 
-Route::get('/thanks', function () {
-    return view('pages.thanks');
-});
-
-
+Route::view('/info', 'pages.info');
+Route::view('/social', 'pages.social');
+Route::view('/paw', 'pages.paw');
+Route::view('/contact', 'pages.contact');
+Route::view('/sowing', 'pages.sowing');
+Route::view('/privacy', 'pages.privacy');
+Route::view('/terms', 'pages.terms');
+Route::view('/thanks', 'pages.thanks');
 Route::view('/adult', 'pages.socials.adult');
 Route::view('/animals', 'pages.socials.animals');
 Route::view('/deport', 'pages.socials.deport');

@@ -9,7 +9,7 @@
     <div>
 
 
-        <form method="POST" action="/customers" class="card bg-white col-sm-12 col-md-6 offset-md-3">
+    <form method="POST" action="{{url('/customers')}}" class="card bg-white col-sm-12 col-md-6 offset-md-3">
             @csrf
             <div class="form-group">
                 <label for="name">Nombres</label>
