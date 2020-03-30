@@ -149,16 +149,16 @@
         methods: {
           guardar(){
             const params = {
-              names = this.usuario.names;
-              email = this.usuario.email;
-              phone = this.usuario.phone;
-              type = this.usuario.type;
-              tax = this.usuario.tax;
-              name_enterprise = this.usuario.name_enterprise;
-              country = this.usuario.country;
-              city = this.usuario.city;
-              document = this.usuario.document;
-              message = this.usuario.message;
+              names : this.usuario.names,
+              email : this.usuario.email,
+              phone : this.usuario.phone,
+              type : this.usuario.type,
+              tax : this.usuario.tax,
+              name_enterprise : this.usuario.name_enterprise,
+              country : this.usuario.country,
+              city : this.usuario.city,
+              document : this.usuario.document,
+              message : this.usuario.message,
             }
             axios.post('/customers', params)
           }

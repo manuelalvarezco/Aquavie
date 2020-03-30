@@ -1903,10 +1903,175 @@ module.exports = {
 /*!**********************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vuetify-loader/lib/loader.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CompensationForm.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\resources\\js\\components\\CompensationForm.vue: Unexpected token, expected \",\" (152:36)\n\n  150 |       guardar(){\n  151 |         const params = {\n> 152 |           names = this.usuario.names;\n      |                                     ^\n  153 |           email = this.usuario.email;\n  154 |           phone = this.usuario.phone;\n  155 |           type = this.usuario.type;\n    at Parser._raise (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:723:17)\n    at Parser.raiseWithData (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:716:17)\n    at Parser.raise (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:710:17)\n    at Parser.unexpected (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:8606:16)\n    at Parser.expect (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:8592:28)\n    at Parser.parseObj (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10174:14)\n    at Parser.parseExprAtom (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9808:28)\n    at Parser.parseExprSubscripts (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9451:23)\n    at Parser.parseMaybeUnary (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9431:21)\n    at Parser.parseExprOps (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9301:23)\n    at Parser.parseMaybeConditional (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9274:23)\n    at Parser.parseMaybeAssign (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9229:21)\n    at Parser.parseVar (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11538:26)\n    at Parser.parseVarStatement (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11350:10)\n    at Parser.parseStatementContent (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10949:21)\n    at Parser.parseStatement (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10882:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11456:25)\n    at Parser.parseBlockBody (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11443:10)\n    at Parser.parseBlock (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11427:10)\n    at Parser.parseFunctionBody (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10435:24)\n    at Parser.parseFunctionBodyAndFinish (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10418:10)\n    at Parser.parseMethod (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10380:10)\n    at Parser.parseObjectMethod (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10296:19)\n    at Parser.parseObjPropValue (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10338:23)\n    at Parser.parseObjectMember (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10262:10)\n    at Parser.parseObj (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10183:25)\n    at Parser.parseExprAtom (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9808:28)\n    at Parser.parseExprSubscripts (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9451:23)\n    at Parser.parseMaybeUnary (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9431:21)\n    at Parser.parseExprOps (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9301:23)\n    at Parser.parseMaybeConditional (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9274:23)\n    at Parser.parseMaybeAssign (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9229:21)\n    at Parser.parseObjectProperty (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10313:101)\n    at Parser.parseObjPropValue (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10338:101)\n    at Parser.parseObjectMember (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10262:10)\n    at Parser.parseObj (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10183:25)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      e1: 1,
+      usuario: {
+        selected: '',
+        impuesto: '',
+        phone: '',
+        country: '',
+        city: '',
+        email: '',
+        enterprise: ''
+      }
+    };
+  },
+  methods: {
+    guardar: function guardar() {
+      var params = {
+        names: this.usuario.names,
+        email: this.usuario.email,
+        phone: this.usuario.phone,
+        type: this.usuario.type,
+        tax: this.usuario.tax,
+        name_enterprise: this.usuario.name_enterprise,
+        country: this.usuario.country,
+        city: this.usuario.city,
+        document: this.usuario.document,
+        message: this.usuario.message
+      };
+      axios.post('/customers', params);
+    }
+  }
+});
 
 /***/ }),
 
@@ -94052,15 +94217,14 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!******************************************************!*\
   !*** ./resources/js/components/CompensationForm.vue ***!
   \******************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CompensationForm_vue_vue_type_template_id_829228ae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CompensationForm.vue?vue&type=template&id=829228ae& */ "./resources/js/components/CompensationForm.vue?vue&type=template&id=829228ae&");
 /* harmony import */ var _CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CompensationForm.vue?vue&type=script&lang=js& */ "./resources/js/components/CompensationForm.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 /* harmony import */ var _node_modules_vuetify_loader_lib_runtime_installComponents_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vuetify-loader/lib/runtime/installComponents.js */ "./node_modules/vuetify-loader/lib/runtime/installComponents.js");
 /* harmony import */ var _node_modules_vuetify_loader_lib_runtime_installComponents_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vuetify_loader_lib_runtime_installComponents_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var vuetify_lib_components_VApp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vuetify/lib/components/VApp */ "./node_modules/vuetify/lib/components/VApp/index.js");
@@ -94111,15 +94275,13 @@ component.options.__file = "resources/js/components/CompensationForm.vue"
 /*!*******************************************************************************!*\
   !*** ./resources/js/components/CompensationForm.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vuetify-loader/lib/loader.js??ref--11-0!../../../node_modules/vue-loader/lib??vue-loader-options!./CompensationForm.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vuetify-loader/lib/loader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CompensationForm.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -94267,8 +94429,8 @@ var opts = {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\manul\Documents\Laravel\Aquavie\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\manul\Documents\Laravel\Aquavie\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Aquavie\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Aquavie\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

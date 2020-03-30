@@ -35,7 +35,7 @@ Route::get('/paw', function () {
     return view('pages.paw');
 });
 
-Route::get('/contact', function () {
+Route::get('contact', function () {
     return view('pages.contact');
 });
 
