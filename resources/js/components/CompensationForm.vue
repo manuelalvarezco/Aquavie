@@ -12,7 +12,8 @@
 
           <v-stepper-step step="3">Confirmar</v-stepper-step>
         </v-stepper-header>
-        <form>
+        <form @submit.prevent="guardar">
+         
         <v-stepper-items>
           <v-stepper-content step="1">
             
@@ -24,7 +25,7 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <select v-model="selected" class="form-control" id="select">
+                  <select v-model="usuario.selected" class="form-control" id="select">
                     <option disabled value="">Seleccione ...</option>
                     <option>Natural</option>
                     <option>Jurídica</option>
@@ -49,15 +50,15 @@
 
             <div v-if="selected === 'Jurídica'" class="form-group">
               <label for="enterprise">Nombre de empresa</label>
-              <input v-model="enterprise" type="text" class="form-control" id="enterprise" aria-describedby="Empresa" placeholder="Nombre empresa">
+              <input v-model="usuario.enterprise" type="text" class="form-control" id="enterprise" aria-describedby="Empresa" placeholder="Nombre empresa">
             </div>
             <div class="form-group">
               <label for="phone">Teléfono contacto</label>
-              <input v-model="phone" type="text" class="form-control" id="phone" aria-describedby="contactp" placeholder="Teléfono">
+              <input v-model="usuario.phone" type="text" class="form-control" id="phone" aria-describedby="contactp" placeholder="Teléfono">
             </div>
             <div class="form-group">
               <label for="impuesto">Impuesto anual</label>
-              <select v-model="impuesto" class="form-control" id="impuesto">
+              <select v-model="usuario.impuesto" class="form-control" id="impuesto">
                 <option disabled value="">Seleccione ...</option>
                 <option>0 - 50 MILL</option>
                 <option>50 - 200 MILL</option>
@@ -66,16 +67,16 @@
             </div>
             <div class="form-group">
               <label for="country">País</label>
-              <input v-model="country" type="text" class="form-control" id="country" aria-describedby="Pais" placeholder="País">
+              <input v-model="usuario.country" type="text" class="form-control" id="country" aria-describedby="Pais" placeholder="País">
             </div>
 
             <div class="form-group">
               <label for="city">Ciudad</label>
-              <input v-model="city" type="text" class="form-control" id="city" aria-describedby="Ciudad" placeholder="Ciudad">
+              <input v-model="usuario.city" type="text" class="form-control" id="city" aria-describedby="Ciudad" placeholder="Ciudad">
             </div>
             <div class="form-group">
               <label for="email">Correo electrónico</label>
-              <input v-model="email" type="email" class="form-control" id="email" aria-describedby="Correo electrónico">
+              <input v-model="usuairo.email" type="email" class="form-control" id="email" aria-describedby="Correo electrónico">
             </div>
             </v-card>
 
@@ -117,17 +118,13 @@
               <p class="text-bold" style="font-size: 22px;">{{email}}</p>
             </div>
 
-            <v-btn
-              color="primary"
-              @click="e1 = 1"
-            >
-              Enviar
-            </v-btn>
+            <button type="submit" class="btn btn-primary">Enviar</button>
 
             <v-btn @click="e1 = 2" text>Cancelar</v-btn>
+            
           </v-stepper-content>
         </v-stepper-items>
-        </form>
+         </form>
       </v-stepper>
     </v-app>
 </template>
@@ -137,14 +134,34 @@
         data() {
             return {
                 e1: 1,
-                selected: '',
-                impuesto: '',
-                phone: '',
-                country: '',
-                city: '',
-                email: '',
-                enterprise: '',
+                
+                usuario:{
+                  selected: '',
+                  impuesto: '',
+                  phone: '',
+                  country: '',
+                  city: '',
+                  email: '',
+                  enterprise: '',
+                }
             }
+        },
+        methods: {
+          guardar(){
+            const params = {
+              names = this.usuario.names;
+              email = this.usuario.email;
+              phone = this.usuario.phone;
+              type = this.usuario.type;
+              tax = this.usuario.tax;
+              name_enterprise = this.usuario.name_enterprise;
+              country = this.usuario.country;
+              city = this.usuario.city;
+              document = this.usuario.document;
+              message = this.usuario.message;
+            }
+            axios.post('/customers', params)
+          }
         },
     }
 </script>

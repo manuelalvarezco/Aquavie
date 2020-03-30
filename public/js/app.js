@@ -1903,159 +1903,10 @@ module.exports = {
 /*!**********************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vuetify-loader/lib/loader.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CompensationForm.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      e1: 1,
-      selected: '',
-      impuesto: '',
-      phone: '',
-      country: '',
-      city: '',
-      email: '',
-      enterprise: ''
-    };
-  }
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\resources\\js\\components\\CompensationForm.vue: Unexpected token, expected \",\" (152:36)\n\n  150 |       guardar(){\n  151 |         const params = {\n> 152 |           names = this.usuario.names;\n      |                                     ^\n  153 |           email = this.usuario.email;\n  154 |           phone = this.usuario.phone;\n  155 |           type = this.usuario.type;\n    at Parser._raise (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:723:17)\n    at Parser.raiseWithData (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:716:17)\n    at Parser.raise (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:710:17)\n    at Parser.unexpected (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:8606:16)\n    at Parser.expect (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:8592:28)\n    at Parser.parseObj (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10174:14)\n    at Parser.parseExprAtom (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9808:28)\n    at Parser.parseExprSubscripts (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9451:23)\n    at Parser.parseMaybeUnary (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9431:21)\n    at Parser.parseExprOps (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9301:23)\n    at Parser.parseMaybeConditional (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9274:23)\n    at Parser.parseMaybeAssign (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9229:21)\n    at Parser.parseVar (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11538:26)\n    at Parser.parseVarStatement (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11350:10)\n    at Parser.parseStatementContent (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10949:21)\n    at Parser.parseStatement (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10882:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11456:25)\n    at Parser.parseBlockBody (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11443:10)\n    at Parser.parseBlock (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:11427:10)\n    at Parser.parseFunctionBody (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10435:24)\n    at Parser.parseFunctionBodyAndFinish (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10418:10)\n    at Parser.parseMethod (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10380:10)\n    at Parser.parseObjectMethod (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10296:19)\n    at Parser.parseObjPropValue (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10338:23)\n    at Parser.parseObjectMember (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10262:10)\n    at Parser.parseObj (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10183:25)\n    at Parser.parseExprAtom (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9808:28)\n    at Parser.parseExprSubscripts (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9451:23)\n    at Parser.parseMaybeUnary (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9431:21)\n    at Parser.parseExprOps (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9301:23)\n    at Parser.parseMaybeConditional (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9274:23)\n    at Parser.parseMaybeAssign (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:9229:21)\n    at Parser.parseObjectProperty (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10313:101)\n    at Parser.parseObjPropValue (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10338:101)\n    at Parser.parseObjectMember (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10262:10)\n    at Parser.parseObj (C:\\Users\\manul\\Documents\\Laravel\\Aquavie\\node_modules\\@babel\\parser\\lib\\index.js:10183:25)");
 
 /***/ }),
 
@@ -39904,6 +39755,14 @@ var render = function() {
           _vm._v(" "),
           _c(
             "form",
+            {
+              on: {
+                submit: function($event) {
+                  $event.preventDefault()
+                  return _vm.guardar($event)
+                }
+              }
+            },
             [
               _c(
                 "v-stepper-items",
@@ -39930,8 +39789,8 @@ var render = function() {
                                   {
                                     name: "model",
                                     rawName: "v-model",
-                                    value: _vm.selected,
-                                    expression: "selected"
+                                    value: _vm.usuario.selected,
+                                    expression: "usuario.selected"
                                   }
                                 ],
                                 staticClass: "form-control",
@@ -39947,9 +39806,13 @@ var render = function() {
                                           "_value" in o ? o._value : o.value
                                         return val
                                       })
-                                    _vm.selected = $event.target.multiple
-                                      ? $$selectedVal
-                                      : $$selectedVal[0]
+                                    _vm.$set(
+                                      _vm.usuario,
+                                      "selected",
+                                      $event.target.multiple
+                                        ? $$selectedVal
+                                        : $$selectedVal[0]
+                                    )
                                   }
                                 }
                               },
@@ -40001,8 +39864,8 @@ var render = function() {
                                   {
                                     name: "model",
                                     rawName: "v-model",
-                                    value: _vm.enterprise,
-                                    expression: "enterprise"
+                                    value: _vm.usuario.enterprise,
+                                    expression: "usuario.enterprise"
                                   }
                                 ],
                                 staticClass: "form-control",
@@ -40012,13 +39875,17 @@ var render = function() {
                                   "aria-describedby": "Empresa",
                                   placeholder: "Nombre empresa"
                                 },
-                                domProps: { value: _vm.enterprise },
+                                domProps: { value: _vm.usuario.enterprise },
                                 on: {
                                   input: function($event) {
                                     if ($event.target.composing) {
                                       return
                                     }
-                                    _vm.enterprise = $event.target.value
+                                    _vm.$set(
+                                      _vm.usuario,
+                                      "enterprise",
+                                      $event.target.value
+                                    )
                                   }
                                 }
                               })
@@ -40035,8 +39902,8 @@ var render = function() {
                               {
                                 name: "model",
                                 rawName: "v-model",
-                                value: _vm.phone,
-                                expression: "phone"
+                                value: _vm.usuario.phone,
+                                expression: "usuario.phone"
                               }
                             ],
                             staticClass: "form-control",
@@ -40046,13 +39913,17 @@ var render = function() {
                               "aria-describedby": "contactp",
                               placeholder: "Teléfono"
                             },
-                            domProps: { value: _vm.phone },
+                            domProps: { value: _vm.usuario.phone },
                             on: {
                               input: function($event) {
                                 if ($event.target.composing) {
                                   return
                                 }
-                                _vm.phone = $event.target.value
+                                _vm.$set(
+                                  _vm.usuario,
+                                  "phone",
+                                  $event.target.value
+                                )
                               }
                             }
                           })
@@ -40070,8 +39941,8 @@ var render = function() {
                                 {
                                   name: "model",
                                   rawName: "v-model",
-                                  value: _vm.impuesto,
-                                  expression: "impuesto"
+                                  value: _vm.usuario.impuesto,
+                                  expression: "usuario.impuesto"
                                 }
                               ],
                               staticClass: "form-control",
@@ -40087,9 +39958,13 @@ var render = function() {
                                         "_value" in o ? o._value : o.value
                                       return val
                                     })
-                                  _vm.impuesto = $event.target.multiple
-                                    ? $$selectedVal
-                                    : $$selectedVal[0]
+                                  _vm.$set(
+                                    _vm.usuario,
+                                    "impuesto",
+                                    $event.target.multiple
+                                      ? $$selectedVal
+                                      : $$selectedVal[0]
+                                  )
                                 }
                               }
                             },
@@ -40119,8 +39994,8 @@ var render = function() {
                               {
                                 name: "model",
                                 rawName: "v-model",
-                                value: _vm.country,
-                                expression: "country"
+                                value: _vm.usuario.country,
+                                expression: "usuario.country"
                               }
                             ],
                             staticClass: "form-control",
@@ -40130,13 +40005,17 @@ var render = function() {
                               "aria-describedby": "Pais",
                               placeholder: "País"
                             },
-                            domProps: { value: _vm.country },
+                            domProps: { value: _vm.usuario.country },
                             on: {
                               input: function($event) {
                                 if ($event.target.composing) {
                                   return
                                 }
-                                _vm.country = $event.target.value
+                                _vm.$set(
+                                  _vm.usuario,
+                                  "country",
+                                  $event.target.value
+                                )
                               }
                             }
                           })
@@ -40152,8 +40031,8 @@ var render = function() {
                               {
                                 name: "model",
                                 rawName: "v-model",
-                                value: _vm.city,
-                                expression: "city"
+                                value: _vm.usuario.city,
+                                expression: "usuario.city"
                               }
                             ],
                             staticClass: "form-control",
@@ -40163,13 +40042,17 @@ var render = function() {
                               "aria-describedby": "Ciudad",
                               placeholder: "Ciudad"
                             },
-                            domProps: { value: _vm.city },
+                            domProps: { value: _vm.usuario.city },
                             on: {
                               input: function($event) {
                                 if ($event.target.composing) {
                                   return
                                 }
-                                _vm.city = $event.target.value
+                                _vm.$set(
+                                  _vm.usuario,
+                                  "city",
+                                  $event.target.value
+                                )
                               }
                             }
                           })
@@ -40185,8 +40068,8 @@ var render = function() {
                               {
                                 name: "model",
                                 rawName: "v-model",
-                                value: _vm.email,
-                                expression: "email"
+                                value: _vm.usuairo.email,
+                                expression: "usuairo.email"
                               }
                             ],
                             staticClass: "form-control",
@@ -40195,13 +40078,17 @@ var render = function() {
                               id: "email",
                               "aria-describedby": "Correo electrónico"
                             },
-                            domProps: { value: _vm.email },
+                            domProps: { value: _vm.usuairo.email },
                             on: {
                               input: function($event) {
                                 if ($event.target.composing) {
                                   return
                                 }
-                                _vm.email = $event.target.value
+                                _vm.$set(
+                                  _vm.usuairo,
+                                  "email",
+                                  $event.target.value
+                                )
                               }
                             }
                           })
@@ -40322,16 +40209,12 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c(
-                        "v-btn",
+                        "button",
                         {
-                          attrs: { color: "primary" },
-                          on: {
-                            click: function($event) {
-                              _vm.e1 = 1
-                            }
-                          }
+                          staticClass: "btn btn-primary",
+                          attrs: { type: "submit" }
                         },
-                        [_vm._v("\n          Enviar\n        ")]
+                        [_vm._v("Enviar")]
                       ),
                       _vm._v(" "),
                       _c(
@@ -94169,14 +94052,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!******************************************************!*\
   !*** ./resources/js/components/CompensationForm.vue ***!
   \******************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CompensationForm_vue_vue_type_template_id_829228ae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CompensationForm.vue?vue&type=template&id=829228ae& */ "./resources/js/components/CompensationForm.vue?vue&type=template&id=829228ae&");
 /* harmony import */ var _CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CompensationForm.vue?vue&type=script&lang=js& */ "./resources/js/components/CompensationForm.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 /* harmony import */ var _node_modules_vuetify_loader_lib_runtime_installComponents_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vuetify-loader/lib/runtime/installComponents.js */ "./node_modules/vuetify-loader/lib/runtime/installComponents.js");
 /* harmony import */ var _node_modules_vuetify_loader_lib_runtime_installComponents_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vuetify_loader_lib_runtime_installComponents_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var vuetify_lib_components_VApp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vuetify/lib/components/VApp */ "./node_modules/vuetify/lib/components/VApp/index.js");
@@ -94227,13 +94111,15 @@ component.options.__file = "resources/js/components/CompensationForm.vue"
 /*!*******************************************************************************!*\
   !*** ./resources/js/components/CompensationForm.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vuetify-loader/lib/loader.js??ref--11-0!../../../node_modules/vue-loader/lib??vue-loader-options!./CompensationForm.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vuetify-loader/lib/loader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CompensationForm.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vuetify_loader_lib_loader_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompensationForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 

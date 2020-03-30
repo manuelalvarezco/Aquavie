@@ -9,25 +9,26 @@
     <div>
 
 
-        <form class="card bg-white col-sm-12 col-md-6 offset-md-3">
+        <form method="POST" action="/customers" class="card bg-white col-sm-12 col-md-6 offset-md-3">
+            @csrf
             <div class="form-group">
                 <label for="name">Nombres</label>
-                <input type="text" class="form-control" id="name" aria-describedby="Nombre" placeholder="Nombre completo">
+                <input type="text" class="form-control" name="names"  id="name" aria-describedby="Nombres" placeholder="Nombre completo">
             </div>
             <div class="form-group">
                 <label for="email">Correo electrónico</label>
-                <input type="email" class="form-control" id="email" aria-describedby="Correo electrónico" placeholder="Correo electrónico">
+                <input type="email" class="form-control" name="email" id="email" aria-describedby="Correo electrónico" placeholder="Correo electrónico">
             </div>
             <div class="form-group">
                 <label for="phone">Teléfono</label>
-                <input type="text" class="form-control" id="phone" placeholder="Teléfono">
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Teléfono">
             </div>
             <div class="form-group">
                 <label for="message">Mensaje</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Mensaje"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="3" placeholder="Mensaje"></textarea>
             </div>
             <div class="form-group">
-                <a href="{{ url('/thanks') }}" class="btn btn-primary btn-block">Enviar</a>
+                <button type="submit" class="btn btn-primary btn-block">Enviar</a>
             </div>
         </form>
     </div>
