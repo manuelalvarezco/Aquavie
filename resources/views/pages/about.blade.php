@@ -7,19 +7,35 @@
 <div class="container mt-4">
     <div class="row">
         <div class="col-md-4">
-            <h2 class="text-center">Misión</h2>
+            <div class="d-flex text-center flex-column">
+                <span class="text-primary">
+                    <i class="fas fa-handshake fa-3x"></i>
+                </span>
+                <h2>Misión</h2>
+            </div>
+            
             <div class="content">
                 <p>Proveer con calidad y eficiencia agua mineral natural, contribuyendo al bienestar en la vida de Nuestros consumidores; además de aportar al cuidado del medio ambiente y el desarrollo sociocultural en Colombia.</p>
             </div>
         </div>
         <div class="col-md-4">
-            <h2 class="text-center">Visión</h2>
+            <div class="d-flex text-center flex-column">
+                <span class="text-primary">
+                    <i class="fas fa-trophy fa-3x"></i>
+                </span>
+                <h2>Visión</h2>
+            </div>
             <div class="content">
                 <p>El Año 2020 Aqua Vie se convertirá en el agua más reconocida en Medellín, expandiéndose principalmente en Antioquia y al mercado nacional en las ciudades más importantes de Colombia; gracias a su alta calidad, compromiso social y medioambiental.</p>
             </div>
         </div>
         <div class="col-md-4">
-            <h2 class="text-center">Valores</h2>
+            <div class="d-flex text-center flex-column">
+                <span class="text-primary">
+                    <i class="fas fa-star fa-3x"></i>
+                </span>
+                <h2>Valores</h2>
+            </div>
             <div class="content">
                 <p>Cada día trabajamos fuertemente para cumplir nuestra misión y visión con transparencia, conciencia, solidaridad, calidad, cultura y integridad, pensando siempre en el bienestar de nuestros clientes.</p>
             </div>

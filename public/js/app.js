@@ -1979,10 +1979,80 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      e1: 1
+      e1: 1,
+      selected: '',
+      impuesto: '',
+      phone: '',
+      country: '',
+      city: '',
+      email: '',
+      enterprise: ''
     };
   }
 });
@@ -39812,7 +39882,7 @@ var render = function() {
               _c(
                 "v-stepper-step",
                 { attrs: { complete: _vm.e1 > 1, step: "1" } },
-                [_vm._v("Name of step 1")]
+                [_vm._v("Tipo de persona")]
               ),
               _vm._v(" "),
               _c("v-divider"),
@@ -39820,98 +39890,465 @@ var render = function() {
               _c(
                 "v-stepper-step",
                 { attrs: { complete: _vm.e1 > 2, step: "2" } },
-                [_vm._v("Name of step 2")]
+                [_vm._v("Datos")]
               ),
               _vm._v(" "),
               _c("v-divider"),
               _vm._v(" "),
               _c("v-stepper-step", { attrs: { step: "3" } }, [
-                _vm._v("Name of step 3")
+                _vm._v("Confirmar")
               ])
             ],
             1
           ),
           _vm._v(" "),
           _c(
-            "v-stepper-items",
+            "form",
             [
               _c(
-                "v-stepper-content",
-                { attrs: { step: "1" } },
+                "v-stepper-items",
                 [
-                  _c("v-card", {
-                    staticClass: "mb-12",
-                    attrs: { color: "grey lighten-1", height: "200px" }
-                  }),
-                  _vm._v(" "),
                   _c(
-                    "v-btn",
-                    {
-                      attrs: { color: "primary" },
-                      on: {
-                        click: function($event) {
-                          _vm.e1 = 2
-                        }
-                      }
-                    },
-                    [_vm._v("\n          Continue\n        ")]
+                    "v-stepper-content",
+                    { attrs: { step: "1" } },
+                    [
+                      _c("div", { staticClass: "row" }, [
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("h4", { staticClass: "text-center" }, [
+                            _vm._v(
+                              "\n            Tipo de persona\n            "
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "select",
+                              {
+                                directives: [
+                                  {
+                                    name: "model",
+                                    rawName: "v-model",
+                                    value: _vm.selected,
+                                    expression: "selected"
+                                  }
+                                ],
+                                staticClass: "form-control",
+                                attrs: { id: "select" },
+                                on: {
+                                  change: function($event) {
+                                    var $$selectedVal = Array.prototype.filter
+                                      .call($event.target.options, function(o) {
+                                        return o.selected
+                                      })
+                                      .map(function(o) {
+                                        var val =
+                                          "_value" in o ? o._value : o.value
+                                        return val
+                                      })
+                                    _vm.selected = $event.target.multiple
+                                      ? $$selectedVal
+                                      : $$selectedVal[0]
+                                  }
+                                }
+                              },
+                              [
+                                _c(
+                                  "option",
+                                  { attrs: { disabled: "", value: "" } },
+                                  [_vm._v("Seleccione ...")]
+                                ),
+                                _vm._v(" "),
+                                _c("option", [_vm._v("Natural")]),
+                                _vm._v(" "),
+                                _c("option", [_vm._v("Jurídica")])
+                              ]
+                            )
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "v-btn",
+                        {
+                          attrs: { color: "primary" },
+                          on: {
+                            click: function($event) {
+                              _vm.e1 = 2
+                            }
+                          }
+                        },
+                        [_vm._v("\n          Continuar\n        ")]
+                      )
+                    ],
+                    1
                   ),
                   _vm._v(" "),
-                  _c("v-btn", { attrs: { text: "" } }, [_vm._v("Cancel")])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "v-stepper-content",
-                { attrs: { step: "2" } },
-                [
-                  _c("v-card", {
-                    staticClass: "mb-12",
-                    attrs: { color: "grey lighten-1", height: "200px" }
-                  }),
-                  _vm._v(" "),
                   _c(
-                    "v-btn",
-                    {
-                      attrs: { color: "primary" },
-                      on: {
-                        click: function($event) {
-                          _vm.e1 = 3
-                        }
-                      }
-                    },
-                    [_vm._v("\n          Continue\n        ")]
+                    "v-stepper-content",
+                    { attrs: { step: "2" } },
+                    [
+                      _c("v-card", { staticClass: "mb-12" }, [
+                        _vm.selected === "Jurídica"
+                          ? _c("div", { staticClass: "form-group" }, [
+                              _c("label", { attrs: { for: "enterprise" } }, [
+                                _vm._v("Nombre de empresa")
+                              ]),
+                              _vm._v(" "),
+                              _c("input", {
+                                directives: [
+                                  {
+                                    name: "model",
+                                    rawName: "v-model",
+                                    value: _vm.enterprise,
+                                    expression: "enterprise"
+                                  }
+                                ],
+                                staticClass: "form-control",
+                                attrs: {
+                                  type: "text",
+                                  id: "enterprise",
+                                  "aria-describedby": "Empresa",
+                                  placeholder: "Nombre empresa"
+                                },
+                                domProps: { value: _vm.enterprise },
+                                on: {
+                                  input: function($event) {
+                                    if ($event.target.composing) {
+                                      return
+                                    }
+                                    _vm.enterprise = $event.target.value
+                                  }
+                                }
+                              })
+                            ])
+                          : _vm._e(),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
+                          _c("label", { attrs: { for: "phone" } }, [
+                            _vm._v("Teléfono contacto")
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.phone,
+                                expression: "phone"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              id: "phone",
+                              "aria-describedby": "contactp",
+                              placeholder: "Teléfono"
+                            },
+                            domProps: { value: _vm.phone },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.phone = $event.target.value
+                              }
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
+                          _c("label", { attrs: { for: "impuesto" } }, [
+                            _vm._v("Impuesto anual")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "select",
+                            {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.impuesto,
+                                  expression: "impuesto"
+                                }
+                              ],
+                              staticClass: "form-control",
+                              attrs: { id: "impuesto" },
+                              on: {
+                                change: function($event) {
+                                  var $$selectedVal = Array.prototype.filter
+                                    .call($event.target.options, function(o) {
+                                      return o.selected
+                                    })
+                                    .map(function(o) {
+                                      var val =
+                                        "_value" in o ? o._value : o.value
+                                      return val
+                                    })
+                                  _vm.impuesto = $event.target.multiple
+                                    ? $$selectedVal
+                                    : $$selectedVal[0]
+                                }
+                              }
+                            },
+                            [
+                              _c(
+                                "option",
+                                { attrs: { disabled: "", value: "" } },
+                                [_vm._v("Seleccione ...")]
+                              ),
+                              _vm._v(" "),
+                              _c("option", [_vm._v("0 - 50 MILL")]),
+                              _vm._v(" "),
+                              _c("option", [_vm._v("50 - 200 MILL")]),
+                              _vm._v(" "),
+                              _c("option", [_vm._v("Más de 200 MILL")])
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
+                          _c("label", { attrs: { for: "country" } }, [
+                            _vm._v("País")
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.country,
+                                expression: "country"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              id: "country",
+                              "aria-describedby": "Pais",
+                              placeholder: "País"
+                            },
+                            domProps: { value: _vm.country },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.country = $event.target.value
+                              }
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
+                          _c("label", { attrs: { for: "city" } }, [
+                            _vm._v("Ciudad")
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.city,
+                                expression: "city"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              id: "city",
+                              "aria-describedby": "Ciudad",
+                              placeholder: "Ciudad"
+                            },
+                            domProps: { value: _vm.city },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.city = $event.target.value
+                              }
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
+                          _c("label", { attrs: { for: "email" } }, [
+                            _vm._v("Correo electrónico")
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.email,
+                                expression: "email"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "email",
+                              id: "email",
+                              "aria-describedby": "Correo electrónico"
+                            },
+                            domProps: { value: _vm.email },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.email = $event.target.value
+                              }
+                            }
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "v-btn",
+                        {
+                          attrs: { color: "primary" },
+                          on: {
+                            click: function($event) {
+                              _vm.e1 = 3
+                            }
+                          }
+                        },
+                        [_vm._v("\n          Continuar\n        ")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-btn",
+                        {
+                          attrs: { text: "" },
+                          on: {
+                            click: function($event) {
+                              _vm.e1 = 1
+                            }
+                          }
+                        },
+                        [_vm._v("Atrás")]
+                      )
+                    ],
+                    1
                   ),
                   _vm._v(" "),
-                  _c("v-btn", { attrs: { text: "" } }, [_vm._v("Cancel")])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "v-stepper-content",
-                { attrs: { step: "3" } },
-                [
-                  _c("v-card", {
-                    staticClass: "mb-12",
-                    attrs: { color: "grey lighten-1", height: "200px" }
-                  }),
-                  _vm._v(" "),
                   _c(
-                    "v-btn",
-                    {
-                      attrs: { color: "primary" },
-                      on: {
-                        click: function($event) {
-                          _vm.e1 = 1
-                        }
-                      }
-                    },
-                    [_vm._v("\n          Continue\n        ")]
-                  ),
-                  _vm._v(" "),
-                  _c("v-btn", { attrs: { text: "" } }, [_vm._v("Cancel")])
+                    "v-stepper-content",
+                    { attrs: { step: "3" } },
+                    [
+                      _vm.selected === "Jurídica"
+                        ? _c("div", { staticClass: "form-group" }, [
+                            _c("label", [_vm._v("Nombre de empresa")]),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass: "text-bold",
+                                staticStyle: { "font-size": "22px" }
+                              },
+                              [_vm._v(_vm._s(_vm.selected))]
+                            )
+                          ])
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", [_vm._v("Teléfono contacto")]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass: "text-bold",
+                            staticStyle: { "font-size": "22px" }
+                          },
+                          [_vm._v(_vm._s(_vm.phone))]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", [_vm._v("Impuesto anual")]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass: "text-bold",
+                            staticStyle: { "font-size": "22px" }
+                          },
+                          [_vm._v(_vm._s(_vm.impuesto))]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", [_vm._v("País")]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass: "text-bold",
+                            staticStyle: { "font-size": "22px" }
+                          },
+                          [_vm._v(_vm._s(_vm.country))]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", [_vm._v("Teléfono contacto")]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass: "text-bold",
+                            staticStyle: { "font-size": "22px" }
+                          },
+                          [_vm._v(_vm._s(_vm.phone))]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", [_vm._v("Correo electrónico")]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass: "text-bold",
+                            staticStyle: { "font-size": "22px" }
+                          },
+                          [_vm._v(_vm._s(_vm.email))]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "v-btn",
+                        {
+                          attrs: { color: "primary" },
+                          on: {
+                            click: function($event) {
+                              _vm.e1 = 1
+                            }
+                          }
+                        },
+                        [_vm._v("\n          Enviar\n        ")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-btn",
+                        {
+                          attrs: { text: "" },
+                          on: {
+                            click: function($event) {
+                              _vm.e1 = 2
+                            }
+                          }
+                        },
+                        [_vm._v("Cancelar")]
+                      )
+                    ],
+                    1
+                  )
                 ],
                 1
               )

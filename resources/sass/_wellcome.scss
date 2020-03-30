@@ -3,7 +3,7 @@ body {
 }
 
 .main {
-    background-image: url('/images/banner.jpg');
+    background-image: url('/images/header01.jpg');
     min-height: 100vh;
     background-repeat: no-repeat;
     display: flex;
@@ -35,7 +35,7 @@ body {
     flex-direction: column;
 }
 
-.font-primary{
+.font-primary {
     font-family: "BrandonText";
     font-size: 48px;
     font-weight: 700;
@@ -152,33 +152,28 @@ body {
     margin: 0px auto;
 }
 
-.aliados{
+.aliados {
     background-color: #FFF;
 }
 
-.carrousel{
+.carrousel {
     width: 100%;
     overflow-x: scroll;
     padding: 30px;
     position: relative;
-
-
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
-
-
-.carrousel__container{
+.carrousel__container {
     white-space: nowrap;
     margin: 70px 0;
     padding-bottom: 10px;
-
 }
 
-.carrousel-item{
+.carrousel-item {
     background-color: transparent;
     width: 250px;
     height: 250px;
@@ -189,39 +184,37 @@ body {
     transition: 450ms;
     transform-origin: center left;
     position: relative;
-    
 }
 
-.carrousel-item:hover{
-    
-    transform: translate3d(100px, 0,0 );
-    .carrousel-item__details{
+.carrousel-item:hover {
+    transform: translate3d(100px, 0, 0);
+    .carrousel-item__details {
         opacity: 1;
     }
-
 }
 
-.carrousel-item:hover ~ .carrousel-item{
-    transform: translate3d(100px, 0,0 );
+.carrousel-item:hover~.carrousel-item {
+    transform: translate3d(100px, 0, 0);
 }
 
-.carrousel__container:hover .carrousel-item{
+.carrousel__container:hover .carrousel-item {
     opacity: 0.3;
 }
-.carrousel__container:hover .carrousel-item:hover{
+
+.carrousel__container:hover .carrousel-item:hover {
     transform: scale(1.5);
     opacity: 1;
 }
 
-.carrousel-item__img{
+.carrousel-item__img {
     width: 250px;
     height: 250px;
     object-fit: cover;
 }
 
-.carrousel-item__details{
+.carrousel-item__details {
     cursor: pointer;
-    background: linear-gradient(to top, rgba(34,99,162,0.9) 0%, rgba(34,99,162,0.2) 100%);
+    background: linear-gradient(to top, rgba(34, 99, 162, 0.9) 0%, rgba(34, 99, 162, 0.2) 100%);
     font-size: 18px;
     opacity: 0;
     transition: 450ms opacity;
@@ -238,6 +231,6 @@ body {
     color: white;
 }
 
-.sociales{
+.sociales {
     background: #f6f6f6;
 }

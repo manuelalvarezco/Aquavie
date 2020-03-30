@@ -51,7 +51,7 @@
                         SIEMBRA CON NOSOTROS 
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                      <a href="{{ url('form/trees') }}" class="dropdown-item" type="button">ÁRBOLES SEMBRADOS</a>
+                      <button class="dropdown-item" type="button">ÁRBOLES SEMBRADOS</button>
                       <a href="{{ url('form/register') }}" class="dropdown-item" type="button">INSCRIBIRSE</a>
                     </div>
                   </div>
